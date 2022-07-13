@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Dacs2022Application",
+            "request": "launch",
+            "mainClass": "br.univille.dacs2022.Dacs2022Application",
+            "projectName": "dacs2022"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Dacs2002Application<dacs2002>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.univille.dacs2002.Dacs2002Application",
+            "projectName": "dacs2002",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

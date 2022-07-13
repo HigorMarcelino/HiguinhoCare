@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="br" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Erro 404</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+        main{
+            margin: auto;
+            background-color: white;
+            margin-top: 320px;
+            width: 810px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        h1{
+            background-image: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) 20px, rgba(255, 255, 0, 0.5) 20px, rgba(255, 255, 0, 0.5) 40px);
+            font-size: 80px;
+            text-align: center;
+            color: white;
+            -webkit-text-stroke: 2px black;
+            font-family: 'Courier New';
+            box-shadow: 5px 5px 15px black;
+            border-radius: 50px;
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+            font-family: Courier New;
+        }
+    </style>
+</head>
+<body>
+    <main>
+
+        <h1>Erro 404</h1>
+        <p>A página solicitada não foi encontrada ou algum outro erro ocorreu.</p>
+        <p>Clique <a th:href="@{/}">aqui</a> para voltar para a página inicial.</p>
+    </main>
+</body>
+</html>

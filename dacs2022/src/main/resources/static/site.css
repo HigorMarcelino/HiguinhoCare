@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(231, 229, 229);
+}
+.text-center {
+    text-align: center;
+}
+
+.botao-direita{
+    display: flex;
+    justify-content: flex-end;
+}
+
+div{
+    margin-top: 5px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+select{
+    max-width: 635px;
+}
